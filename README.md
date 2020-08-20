@@ -25,7 +25,7 @@ To create a new release:
 1. Push to master
 2. Build the tool for Linux x86_64:
    ```
-   go build -o prometheus-canary-vmajor.minor.patch-x86_64 .
+   go build -o prometheus-canary-vmajor.minor.patch-linux-x86_64 .
    ```
 3. Create a new GitHub release
     1. Tag it `vmajor.minor.patch`
@@ -40,5 +40,5 @@ To create a new release:
 	   # Files
 	   | File | SHA256 Checksum |
        | - | - |
-       | `prometheus-canary-vmajor.minor.patch-x86_64` | `checksum` |
+       | `prometheus-canary-vmajor.minor.patch-linux-x86_64` | `checksum` |
        ```
