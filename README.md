@@ -1,3 +1,9 @@
+Project status: On-hold
+
+- Not usable yet, no releases
+- Configuration file loading implemented
+- Metric firing TODO
+
 # Prometheus Canary
 Intentionally trigger Prometheus alerts to test alerting.
 
